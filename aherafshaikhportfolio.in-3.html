@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aheraf Shaikh | Portfolio</title>
+<style>
+:root{
+  --navy:#172554;--blue:#2563eb;--sky:#e0f2fe;--text:#172033;
+  --muted:#64748b;--white:#fff;--bg:#f5f8ff;--border:#dbe5f3;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.nav-inner{max-width:1050px;margin:auto;padding:14px 22px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:800;color:var(--navy);font-size:20px}
+nav a{color:#475569;text-decoration:none;margin-left:20px;font-size:14px}
+nav a:hover{color:var(--blue)}
+.container{max-width:1050px;margin:auto;padding:25px 22px}
+.hero{margin-top:22px;border-radius:24px;padding:58px 42px;background:linear-gradient(135deg,#172554 0%,#2563eb 58%,#38bdf8 100%);color:white;position:relative;overflow:hidden;box-shadow:0 18px 45px rgba(37,99,235,.18)}
+.hero:after{content:"";position:absolute;width:230px;height:230px;border-radius:50%;right:-65px;top:-70px;background:rgba(255,255,255,.12)}
+.badge{display:inline-block;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.25);padding:7px 12px;border-radius:30px;font-size:13px;margin-bottom:17px}
+h1{font-size:48px;line-height:1.1;margin-bottom:9px}
+.hero .role{font-size:19px;color:#e0f2fe}
+.hero p{max-width:650px;color:#dbeafe;margin-top:16px}
+.buttons{margin-top:25px;display:flex;gap:10px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 17px;border-radius:10px;text-decoration:none;font-weight:700;font-size:14px}
+.btn.white{background:white;color:var(--navy)}
+.btn.outline{border:1px solid rgba(255,255,255,.45);color:white}
+section{background:white;border:1px solid var(--border);border-radius:18px;padding:30px;margin-top:20px;box-shadow:0 8px 25px rgba(23,37,84,.045)}
+.section-title{display:flex;align-items:center;gap:10px;margin-bottom:17px}
+.dot{width:10px;height:10px;background:#38bdf8;border-radius:50%;box-shadow:0 0 0 5px #e0f2fe}
+h2{font-size:22px;color:var(--navy)}
+p{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}
+.card{padding:18px;border-radius:13px;background:#f8fbff;border:1px solid #e2eaf6;transition:.2s}
+.card:hover{transform:translateY(-3px);border-color:#93c5fd;box-shadow:0 8px 20px rgba(37,99,235,.08)}
+.card strong{display:block;color:var(--navy);margin-bottom:4px}
+.skills{display:flex;flex-wrap:wrap;gap:10px}
+.skill{background:#eff6ff;color:#1d4ed8;border:1px solid #bfdbfe;padding:9px 13px;border-radius:9px;font-weight:600;font-size:14px}
+.timeline{border-left:3px solid #bfdbfe;padding-left:20px}
+.timeline strong{color:var(--navy)}
+.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
+.contact-card{text-decoration:none;color:inherit;padding:18px;background:#f8fbff;border:1px solid #e2eaf6;border-radius:13px}
+.contact-card span{display:block;color:var(--blue);font-size:13px;font-weight:700;margin-bottom:4px}
+footer{text-align:center;color:#94a3b8;padding:28px 10px}
+@media(max-width:750px){
+  h1{font-size:38px}.hero{padding:42px 25px}
+  .grid{grid-template-columns:repeat(2,1fr)}
+  .contact-grid{grid-template-columns:1fr}
+  nav a{display:none}
+}
+@media(max-width:450px){.grid{grid-template-columns:1fr}.container{padding:15px}.hero{margin-top:15px}section{padding:23px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <div class="logo">Aheraf.</div>
+    <div><a href="#about">About</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a></div>
+  </div>
+</nav>
+
+<div class="container">
+<header class="hero">
+  <div class="badge">AVAILABLE FOR PART-TIME WORK</div>
+  <h1>Aheraf Shaikh</h1>
+  <div class="role">Commerce Graduate · Computer & Office Skills</div>
+  <p>12th Commerce graduate and MS-CIT certified fresher, interested in office work, computer operations and building practical professional experience.</p>
+  <div class="buttons">
+    <a class="btn white" href="tel:7045847941">Call Me</a>
+    <a class="btn outline" href="https://wa.me/917607864013">WhatsApp</a>
+    <a class="btn outline" href="mailto:aherafshaikhO@gmail.com">Email</a>
+  </div>
+</header>
+
+<section id="about">
+  <div class="section-title"><i class="dot"></i><h2>About Me</h2></div>
+  <p>I am Aheraf Shaikh, an 18-year-old Commerce student who has recently completed 12th standard. I am preparing for further studies and looking for a part-time opportunity where I can gain practical work experience and develop my professional skills. I am interested in office work, computer operations and administrative tasks.</p>
+</section>
+
+<section>
+  <div class="section-title"><i class="dot"></i><h2>Career Objective</h2></div>
+  <p>To obtain a part-time position in an office or computer-related role where I can use my computer and MS Office skills, learn new things, gain practical experience and contribute positively to the organization.</p>
+</section>
+
+<section id="skills">
+  <div class="section-title"><i class="dot"></i><h2>Skills</h2></div>
+  <div class="skills">
+    <span class="skill">MS Excel</span><span class="skill">MS Word</span><span class="skill">MS PowerPoint</span>
+    <span class="skill">Tally</span><span class="skill">Typing</span><span class="skill">Computer Operations</span>
+    <span class="skill">Office Work</span><span class="skill">General Computer Knowledge</span>
+  </div>
+</section>
+
+<section id="education">
+  <div class="section-title"><i class="dot"></i><h2>Education & Certification</h2></div>
+  <div class="grid">
+    <div class="card"><strong>12th Standard</strong><span>Commerce · Completed</span></div>
+    <div class="card"><strong>MS-CIT</strong><span>Certified</span></div>
+    <div class="card"><strong>Experience</strong><span>Fresher</span></div>
+    <div class="card"><strong>Language</strong><span>English</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title"><i class="dot"></i><h2>Interested Work Areas</h2></div>
+  <div class="grid">
+    <div class="card"><strong>Office Assistant</strong><span>General office support</span></div>
+    <div class="card"><strong>Computer Operator</strong><span>Computer-based work</span></div>
+    <div class="card"><strong>Data Entry</strong><span>Typing & data handling</span></div>
+    <div class="card"><strong>Back Office</strong><span>Administrative support</span></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-title"><i class="dot"></i><h2>Let's Connect</h2></div>
+  <div class="contact-grid">
+    <a class="contact-card" href="tel:7045847941"><span>PHONE</span>7045847941</a>
+    <a class="contact-card" href="https://wa.me/917607864013"><span>WHATSAPP</span>7607864013</a>
+    <a class="contact-card" href="mailto:aherafshaikhO@gmail.com"><span>EMAIL</span>aherafshaikhO@gmail.com</a>
+  </div>
+  <p style="margin-top:16px">Mumbai, Maharashtra</p>
+</section>
+
+<footer>© 2026 Aheraf Shaikh · Personal Portfolio</footer>
+</div>
+</body>
+</html>
